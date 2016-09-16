@@ -1,0 +1,23 @@
+{
+  "name": "restify-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_PATH=\"$NODE_PATH;./lib\"; nodemon ./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "confit": "^2.0.4",
+    "grunt": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "lodash": "^4.15.0",
+    "nodemon": "^1.10.2",
+    "restify": "^4.1.1",
+    "restify-enrouten": "0.0.1",
+    "restify-meddleware": "0.0.1",
+    "shortstop-handlers": "^1.0.1"
+  }
+}

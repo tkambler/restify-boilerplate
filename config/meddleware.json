@@ -1,0 +1,16 @@
+{
+    "enrouten": {
+        "enabled": false,
+        "priority": 50,
+        "module": {
+            "name": "restify-enrouten",
+            "arguments": [
+                {
+                    "server": "path:../lib/app/api",
+                    "index": "path:../lib/app/api/routes/index",
+                    "routes": "config:routes"
+                }
+            ]
+        }
+    }
+}

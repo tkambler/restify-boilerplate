@@ -1,0 +1,4 @@
+[
+    { "path": "/api/ping", "method": "GET", "version": "1.0.0", "handler": "require:app/api/routes/api/v1/ping" },
+    { "path": "/api/ping", "method": "GET", "version": "2.0.0", "handler": "require:app/api/routes/api/v2/ping" }
+]

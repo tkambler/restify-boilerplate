@@ -1,0 +1,7 @@
+{
+    "api": {
+        "port": 8080
+    },
+    "routes": "import:./routes",
+    "meddleware": "import:./meddleware"
+}
